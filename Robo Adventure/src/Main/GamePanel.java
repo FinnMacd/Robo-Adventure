@@ -62,8 +62,8 @@ public class GamePanel extends Canvas implements KeyListener,Runnable,FocusListe
 		
 		gsm = new GameStateManager();
 		
-		music = new PlaySound("/Music/recording.wav");
-		music.playSound();
+//		music = new PlaySound("/Music/recording.wav");
+//		music.playSound();
 	}
 	
 	public void run() {
